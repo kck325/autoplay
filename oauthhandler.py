@@ -7,8 +7,8 @@ except NameError:
  
 yahoo = OAuth1Service(
     name='yahoo',
-    consumer_key='dj0yJmk9bksxbFFzcnNFbm04JmQ9WVdrOVFVdGlTVTF6TkdzbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD1kOA--',
-    consumer_secret='5b11bea43eb972e1053fa48ed0580658f4ba9b8c',
+    consumer_key='consumer_key',
+    consumer_secret='consumer_secret',
     request_token_url='https://api.login.yahoo.com/oauth/v2/get_request_token',
     access_token_url='https://api.login.yahoo.com/oauth/v2/get_token',
     authorize_url='https://api.login.yahoo.com/oauth/v2/request_auth',
